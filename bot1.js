@@ -10,8 +10,8 @@ const botSay = (data) => {
    return [ `hallo i am bot, whats your name?`,
             `halo ${data?.nama},umur kamu berapa?`,
             `ooooh ${data?.usia}, kalo hobi kamu apa ? `,
-            `waah sama dong ${data?.hobi}, btw kamu boleh pacaran?`,
-            `ooooh ${data?.pacar},ya udah kalo gitu.Udahan ya?`
+            `waah sama dong ${data?.hobi},ada pesan gak buat saya?`,
+            `ooh ${data?.pacar}.baik lah,ya udah kalo gitu.Udahan ya?`
 ]
 }
 
